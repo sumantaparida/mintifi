@@ -1,0 +1,48 @@
+{
+  "name": "sumanta",
+  "version": "1.3.0",
+  "description": "SUMANTA Admin is a free to use Bootstrap admin template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumantaparida/mintifi.git"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "template",
+    "admin",
+    "bootstrap",
+    "theme",
+    "backend",
+    "responsive"
+  ],
+  "author": "Aigars Silkalns",
+  "contributors": [
+    "Christian Esperar"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumantaparida/mintifi.git"
+  },
+  "homepage": "https://github.com/sumantaparida/mintifi.git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-install": "^0.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^1.5.3"
+  },
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-install": "^0.6.0"
+  }
+}
