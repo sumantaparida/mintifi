@@ -4131,6 +4131,10 @@ ul.notifications {
 .materialdesign .form-group {
   margin-bottom: 20px;
   position: relative; }
+  .materialdesign .form-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; }
   .materialdesign .form-group input, .materialdesign .form-group select, .materialdesign .form-group textarea {
     transition: all 0.28s ease;
     width: 100%;
@@ -4144,6 +4148,8 @@ ul.notifications {
     .materialdesign .form-group input:focus ~ .bar::before, .materialdesign .form-group input:valid ~ .bar::before, .materialdesign .form-group select:focus ~ .bar::before, .materialdesign .form-group select:valid ~ .bar::before, .materialdesign .form-group textarea:focus ~ .bar::before, .materialdesign .form-group textarea:valid ~ .bar::before {
       width: 100%;
       left: 0; }
+    .materialdesign .form-group input[type="date"], .materialdesign .form-group select[type="date"], .materialdesign .form-group textarea[type="date"] {
+      padding: 0px; }
   .materialdesign .form-group label {
     position: absolute;
     transition: all 0.28s ease;

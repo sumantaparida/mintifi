@@ -15,6 +15,8 @@
     <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
     <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="../vendors/switchery/dist/switchery.min.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
@@ -233,7 +235,7 @@
                             <i class="bar"></i>
                           </div>
                           <div class="form-group">
-                            <input type="number" required="required" maxlength="10">
+                            <input type="text" required="required" maxlength="10">
                             <label class="control-label" for="input">Mobile No</label>
                             <i class="bar"></i>
                           </div>
@@ -249,8 +251,8 @@
                           </div>
                           <div class="form-group">
                             <select>
-                              <option>Mumbai</option>
-                              <option>Delhi</option>
+                              <option value="0">Mumbai</option>
+                              <option value="1">Delhi</option>
                             </select>
                             <label class="control-label" for="select">City</label>
                             <i class="bar"></i>
@@ -261,15 +263,111 @@
                         <p class="text-center"><button type="submit" class="btn btn-success">Submit</button></p>
                       </div>
                       <div id="step-2">
-                        <h2 class="StepTitle">Step 2 Content</h2>
-                        <p>
-                          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        <form class="form-horizontal form-label-left materialdesign">
+                          <div class="form-group loan-ammount">
+                            <input type="text" required="required">
+                            <label class="control-label" for="input">Aadhar No</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <select>
+                              <option value="0">B.Com</option>
+                              <option value="1">I.Sc</option>
+                              <option value="2">BE</option>
+                              <option value="3">BBA</option>
+                            </select>
+                            <label class="control-label" for="input">Graduation</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <input type="date" required="required" value="2013-01-08">
+                            <label class="control-label" for="input">Date</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <h4>Permanent Address</h4>
+                          </div>
+                          <div class="form-group">
+                            <select>
+                              <option value="0">Maharastra</option>
+                              <option value="1">Kolkata</option>
+                              <option value="2">Odisha</option>
+                              <option value="3">Delhi</option>
+                            </select>
+                            <label class="control-label" for="input">State</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <select>
+                              <option value="0">Mumbai</option>
+                              <option value="1">Kolkata</option>
+                              <option value="2">Odisha</option>
+                              <option value="3">Delhi</option>
+                            </select>
+                            <label class="control-label" for="input">City</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <select>
+                              <option value="0">400001</option>
+                              <option value="1">400002</option>
+                              <option value="2">400003</option>
+                              <option value="3">400004</option>
+                            </select>
+                            <label class="control-label" for="input">Pin Code</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" required="required">
+                            <label class="control-label" for="input">Permanent Address</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div>
+                            <label>
+                              <input type="checkbox" class="js-switch" checked /> Same As Above
+                            </label>
+                          </div>
+                          <div class="form-group">
+                            <h4>Current Address</h4>
+                          </div>
+                          <div class="form-group">
+                            <select>
+                              <option value="0">Maharastra</option>
+                              <option value="1">Kolkata</option>
+                              <option value="2">Odisha</option>
+                              <option value="3">Delhi</option>
+                            </select>
+                            <label class="control-label" for="input">State</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <select>
+                              <option value="0">Mumbai</option>
+                              <option value="1">Kolkata</option>
+                              <option value="2">Odisha</option>
+                              <option value="3">Delhi</option>
+                            </select>
+                            <label class="control-label" for="input">City</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <select>
+                              <option value="0">400001</option>
+                              <option value="1">400002</option>
+                              <option value="2">400003</option>
+                              <option value="3">400004</option>
+                            </select>
+                            <label class="control-label" for="input">Pin Code</label>
+                            <i class="bar"></i>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" required="required">
+                            <label class="control-label" for="input">Current Address</label>
+                            <i class="bar"></i>
+                          </div>
+                        </form>
+                        <div class="clearfix"><br></div>
+                        <p class="text-center"><button type="submit" class="btn btn-success">PROCCED</button></p>
                       </div>
                       <div id="step-3">
                         <h2 class="StepTitle">Step 3 Content</h2>
@@ -313,6 +411,8 @@
     <script src="../vendors/nprogress/nprogress.js"></script>
     <!-- jQuery Smart Wizard -->
     <script src="../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+    <!-- Switchery -->
+    <script src="../vendors/switchery/dist/switchery.min.js"></script>
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>
 

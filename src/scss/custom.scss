@@ -4647,6 +4647,11 @@ ul.notifications {
   .form-group {
     margin-bottom: 20px;
     position: relative;
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
     input, select, textarea {
       -webkit-transition: all 0.28s ease;
       transition: all 0.28s ease;
@@ -4666,6 +4671,9 @@ ul.notifications {
             left: 0;
           }
         }
+      }
+      &[type="date"] {
+        padding: 0px;
       }
     }
     label {
