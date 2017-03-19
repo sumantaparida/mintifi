@@ -334,8 +334,8 @@ body .container.body .right_col {
 body {
   color: #0c1224;
   background: #1b2133;
-  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
-  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.471;
 }
@@ -591,7 +591,7 @@ a:hover, a:focus {
   color: #ECF0F1 !important;
   line-height: 52px;
   display: block;
-  height: 55px;
+  height: 57px;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
@@ -3198,21 +3198,6 @@ ul.project_files li a i {
 .view-first:hover p {
   transition-delay: 0.1s;
 }
-
-/* *********  /media gallery  **************************** */
-
-
-/* *********  verticle tabs  **************************** */
-
-
-/*!
- * bootstrap-vertical-tabs - v1.2.1
- * https://dbtek.github.io/bootstrap-vertical-tabs
- * 2014-11-07
- * Copyright (c) 2014 İsmail Demirbilek
- * License: MIT
- */
-
 .tabs-left, .tabs-right {
   border-bottom: none;
   padding-top: 2px;
@@ -4651,6 +4636,7 @@ ul.notifications {
       appearance: none;
       -webkit-appearance: none;
       -moz-appearance: none;
+      background-color: transparent;
     }
     input, select, textarea {
       -webkit-transition: all 0.28s ease;
@@ -4691,7 +4677,7 @@ ul.notifications {
         left: 0;
         right: 0;
         margin: auto;
-        width: 80px;
+        width: 150px;
         text-align: center;
       }
       input {

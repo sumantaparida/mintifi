@@ -1,0 +1,91 @@
+.application-data {
+  padding: 0px !important;
+  .x_title {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    h2 {
+      width: 100%;
+      padding: 10px;
+      margin: 0px;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+  .x_content {
+    padding: 7.5px;
+    margin-top: inherit;
+    .x_box {
+      border: solid 2px #dedede;
+    }
+    h4.headding {
+      float: left;
+      width: 100%;
+      margin-top: 7px;
+      margin-bottom: 7px;
+      span {
+        float: left;
+        &:nth-child(2n+1) {
+          width: 70%;
+          font-size: 13px;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        &:nth-child(2n+2) {
+          width: 30%;
+          font-size: 12px;
+          text-align: right;
+        }
+      }
+    }
+    p {
+      margin: 0px;
+      color: #23527c;
+      float: left;
+      width: 100%;
+      font-size: 11px;
+      &:nth-child(5n+5) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        & span {
+          float: left;
+          margin-right: 15px;
+          cursor: pointer;
+        }
+      }
+      [data-time] {
+        float: right;
+      }
+      .icon {
+        width: 18px;
+        height: 18px;
+        margin-top: -2px;
+        margin-right: 3px;
+        &.note {
+          background-position: -14px -11px;
+          float: left;
+        }
+        &.task {
+          background-position: -48px -11px;
+          float: left;
+        }
+        &.add-note {
+          background-position: -82px -11px;
+          float: left;
+        }
+      }
+    }
+    .status {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: #dedede;
+      padding: 3px 10px;
+      color: red;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,4 +1,81 @@
-@charset "UTF-8";
+.application-data {
+  padding: 0px !important; }
+  .application-data .x_title {
+    float: left;
+    width: 100%;
+    padding: 0px; }
+    .application-data .x_title h2 {
+      width: 100%;
+      padding: 10px;
+      margin: 0px; }
+      .application-data .x_title h2 span {
+        font-size: 14px; }
+  .application-data .x_content {
+    padding: 7.5px;
+    margin-top: inherit; }
+    .application-data .x_content .x_box {
+      border: solid 2px #dedede; }
+    .application-data .x_content h4.headding {
+      float: left;
+      width: 100%;
+      margin-top: 7px;
+      margin-bottom: 7px; }
+      .application-data .x_content h4.headding span {
+        float: left; }
+        .application-data .x_content h4.headding span:nth-child(2n+1) {
+          width: 70%;
+          font-size: 13px;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        .application-data .x_content h4.headding span:nth-child(2n+2) {
+          width: 30%;
+          font-size: 12px;
+          text-align: right; }
+    .application-data .x_content p {
+      margin: 0px;
+      color: #23527c;
+      float: left;
+      width: 100%;
+      font-size: 11px; }
+      .application-data .x_content p:nth-child(5n+5) {
+        margin-top: 10px;
+        margin-bottom: 10px; }
+        .application-data .x_content p:nth-child(5n+5) span {
+          float: left;
+          margin-right: 15px;
+          cursor: pointer; }
+      .application-data .x_content p [data-time] {
+        float: right; }
+      .application-data .x_content p .icon {
+        width: 18px;
+        height: 18px;
+        margin-top: -2px;
+        margin-right: 3px; }
+        .application-data .x_content p .icon.note {
+          background-position: -14px -11px;
+          float: left; }
+        .application-data .x_content p .icon.task {
+          background-position: -48px -11px;
+          float: left; }
+        .application-data .x_content p .icon.add-note {
+          background-position: -82px -11px;
+          float: left; }
+    .application-data .x_content .status {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: #dedede;
+      padding: 3px 10px;
+      color: red;
+      font-size: 12px; }
+
+.icon {
+  background-image: url("../../production/images/sprite.png");
+  background-repeat: no-repeat;
+  display: inline-block; }
+
 .left_col {
   background: #1b2133; }
 
@@ -327,8 +404,8 @@ body .container.body .right_col {
 body {
   color: #0c1224;
   background: #1b2133;
-  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
-  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.471; }
 
@@ -571,7 +648,7 @@ a:hover, a:focus {
   color: #ECF0F1 !important;
   line-height: 52px;
   display: block;
-  height: 55px;
+  height: 57px;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
@@ -2944,15 +3021,6 @@ ul.project_files li a i {
 .view-first:hover p {
   transition-delay: 0.1s; }
 
-/* *********  /media gallery  **************************** */
-/* *********  verticle tabs  **************************** */
-/*!
- * bootstrap-vertical-tabs - v1.2.1
- * https://dbtek.github.io/bootstrap-vertical-tabs
- * 2014-11-07
- * Copyright (c) 2014 ─░smail Demirbilek
- * License: MIT
- */
 .tabs-left, .tabs-right {
   border-bottom: none;
   padding-top: 2px; }
@@ -4134,7 +4202,8 @@ ul.notifications {
   .materialdesign .form-group select {
     appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: none; }
+    -moz-appearance: none;
+    background-color: transparent; }
   .materialdesign .form-group input, .materialdesign .form-group select, .materialdesign .form-group textarea {
     transition: all 0.28s ease;
     width: 100%;
@@ -4163,7 +4232,7 @@ ul.notifications {
       left: 0;
       right: 0;
       margin: auto;
-      width: 80px;
+      width: 150px;
       text-align: center; }
     .materialdesign .form-group.loan-ammount input {
       text-align: center;
